@@ -1,0 +1,22 @@
+{
+    "name": "hulang/filesystem-web",
+    "description": "thinkphp 8.0 for web",
+    "type": "library",
+    "require": {
+        "php": "^8.0.2",
+        "league/flysystem": "^3.0",
+        "yzh52521/easyhttp": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hulang",
+            "email": "hulangfy@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "hulang\\web\\": "src/"
+        }
+    }
+}
